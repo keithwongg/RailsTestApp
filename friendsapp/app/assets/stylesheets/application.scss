@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap";
+
+.center-content{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+
+.corona-pika{
+    text-align: center;
+    height: 50%;
+    margin: auto;
+}
+.corona-pika > img {
+    width: auto;
+    height: auto;
+    object-fit: fill;
+}
