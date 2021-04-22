@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  resources :friends
-  root "friends#index"
-  get "friends/new"
+  get 'users/new'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  root "home#index"
 end
